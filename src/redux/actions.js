@@ -1,12 +1,3 @@
-// export const addTask = (text) => {
-//   return {
-//     type: "ADD_TASK",
-//     payload: {
-//       id: Math.random().toString(),
-//       text,
-//     },
-//   };
-// };
 
 export const deleteTask = (taskId) => {
   return {
